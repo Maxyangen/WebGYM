@@ -1,2 +1,2 @@
-# WebGame
+# WebGYM
 training html css javascript 

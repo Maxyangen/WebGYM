@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        #bodyStyle{
+            background-image: url(../background.jpg);
+        }
+
+        #avatar{
+            border: 3px dotted blue;
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+        }
+        
+        p{
+            font-size: 14px;
+        }
+
+        .blockDiv{
+            border: 2px solid green;
+            width: 80%;
+            height: 100%;
+            margin: 0px auto;
+            padding: 0 0 0 0;
+            background-color: white;
+            text-align: center;
+        }
+
+        .textStyle{
+            color: green;
+            font-weight: bold;
+
+        }
+        #nameHeader{
+            text-align: center;
+            background-color: rgb(16, 46, 16);
+            color: white;
+            font-weight: bold;
+            font-size: 15px;
+            padding: 10px 0px 10px 0px;
+            width: 100%;
+        }
+        
+        article {
+        float: left;
+        width: 70%;
+        background-color: #f1f1f1;
+        height: 600px;
+        }
+        aside {
+        float: right;
+        width: 30%;
+        height: 600px; 
+        background: #ccc;
+        }
+
+        footer > p{
+            background-color: gray;
+            font-weight: bold;
+            margin: 0 auto;
+        }
+
+        .listA{
+            padding: 5px 15px;
+            color: white;
+            background-color: green;
+            text-decoration: none;
+            text-align: center;
+            
+        }
+        .listA:hover{
+            background-color:limegreen;
+        }
+        .listA.disabled{
+            background-color: black;
+        }
+      
+        #logo_c{
+            width: 50%;
+            height: 100px;
+        }
+        #logo_java{
+            width: 50%;
+            height: 200px; 
+        }
+
+    </style>
+</head>
+<body id="bodyStyle">
+    
+    
+    <div class="blockDiv">
+
+
+        <div id="nameHeader">邱彥鈞的自傳</div>
+
+        <article>
+            <img src="../girl.jpg" id="avatar">
+
+            <div>
+                <a class="listA disabled">自傳</a>
+                <a class="listA" href="履歷">履歷</a>
+                <a class="listA" href="作品集">作品集</a>
+                <a class="listA" href="fivesc.html">讀書計畫</a>
+                        
+            </div>            
+                
+                            
+                
+            <p> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp在初學程式語言的這段時間，我偶爾會被挫折給擊敗，但每一次我選擇繼續前進時，都發現那段挫折已不再如此刁難。 
+                在緩慢的步調下也過了一年多了，當我越做越多之後，「成為工程師」逐漸不再是掛在嘴邊的興趣，而是我一定要實現的目標──由於我對於APP的開發有許多興趣， <span class="textStyle">友人直接將我帶進了Java程式語言的環境下。當時我花了很多時間來理解物件導向中的「封裝、繼承、多型」</span>，在友人Github的專案庫中做了許多的程式練習，從<span class="textStyle">物件導向、例外處理， 一路到檔案操作、資料結構，最後則是執行緒，一併都靠自己漸漸學成了</span>。 
+                在撰寫Java程式時，態度跟之前在C++風格底下有非常大的不同。我十分在乎我在每個題目上的程式設計──為了讓屬性及函數的命名具有可讀性， 我喜歡把動機直接詳細地列在命名上。
+                此外我還時常擔憂著類別們的互動是否設計妥當，我的類別容易便得龐大而不易維護，就此問題上， 友人提出了「單一職責原則」，讓我頓時開悟，覺得自己已領悟了心法，便著急興奮地套用在現有的專案下，果不其然，「設計能力是從經驗中獲得，而非單從知識中獲得。」 
+                我還需要更多的程式經驗跟機會才能征服設計難題。
+            </p>
+        </article>
+            
+        <aside>
+            <h1>技能導覽</h1>
+            <p>C++ 程式經歷</p>
+            <img src="../c++.png" id="logo_c">
+            <p>Java 程式經歷</p>
+           <img src="../Java_logo.png" id="logo_java">
+
+        </aside>
+              
+        <footer>
+            <p>Max<sub>2019/8/1</sub></p>
+        </footer>
+    
+        
+
+
+        
+    </div>
+
+    
+
+</body>
+</html>

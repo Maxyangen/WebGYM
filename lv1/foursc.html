@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #bodyStyle{
+            background-image: url(background.jpg);
+        }
+
+        #avatar{
+            border: 3px dotted blue;
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+        }
+        
+        .blockDiv{
+            border: 2px solid green;
+            width: 80%;
+            height: 70%;
+            margin: 0px auto;
+            background-color: white;
+        }
+
+        .textStyle{
+            color: green;
+            font-weight: bold;
+
+        }
+        #nameHeader{
+            text-align: center;
+            background-color: rgb(16, 46, 16);
+            color: white;
+            font-weight: bold;
+            font-size: 15px;
+            padding: 10px;
+        }
+
+        .listA{
+            padding: 5px 15px;
+            color: white;
+            background-color: green;
+            text-decoration: none;
+            text-align: center;
+            
+        }
+        .listA:hover{
+            background-color:limegreen;
+        }
+        .listA.disabled{
+            background-color: black;
+        }
+        .listDiv{
+            margin: 20px;
+        }
+
+        .courseTable{
+
+            margin: 30px auto;
+            width: 80%;
+            height: 100%;
+            background-color: white;
+            border-collapse: collapse;
+            
+
+        }
+
+        th{
+            background-color: green;
+            color: white;
+            padding: 10px;
+        }
+
+        tr{
+            text-align: center;
+
+        }
+
+        .courseTime{
+            color: white;
+            background-color: lightslategrey;
+        }
+
+        .work{
+            font-size: 13px;
+            text-align: center;
+            border: 1px solid black;
+            padding: 10px;
+
+        }
+        .free{
+            font-size: 13px;
+            font-weight: bold;
+            padding: 10px;
+            background-color: orange;
+        }
+
+    </style>
+</head>
+<body id="bodyStyle">
+
+    <div class="blockDiv" style="text-align: center">
+
+        <div id="nameHeader">邱彥鈞的自傳</div>
+
+        <img src="girl.jpg" id="avatar">
+
+        <div class="listDiv">
+            <a class="listA" href="four.html">自傳</a>
+            <a class="listA" href="履歷">履歷</a>
+            <a class="listA" href="作品集">作品集</a>
+            <a class="listA disabled" >讀書計畫</a>
+            
+
+        </div>
+
+
+        <table class="courseTable">
+            <tr>
+                <th style="width: 25%">自學表</th>
+                <th style="width: 15%">一</th>
+                <th style="width: 15%">二</th>
+                <th style="width: 15%">三</th>
+                <th style="width: 15%">四</th>
+                <th style="width: 15%">五</th>
+    
+            </tr>
+    
+            <tr>
+                <td class="courseTime">8:00 ~ 12:00</td>
+                <td class="work">閱讀書籍</td>
+                <td class="work">閱讀書籍</td>
+                <td class="work">閱讀書籍</td>
+                <td class="work">閱讀英文</td>
+                <td class="work">閱讀英文</td>
+    
+    
+            </tr>
+    
+            <tr>
+                <td class="courseTime">12:00 ~ 13:00</td>
+                <td class="free" colspan="5">午餐時間</td>
+            </tr>
+    
+            <tr>
+                <td class="courseTime">13:00 ~ 17:00</td>
+                <td class="work">Java 開發</td>
+                <td class="work">Java 開發</td>
+                <td class="work">Java 開發</td>
+                <td class="work">網頁學習</td>
+                <td class="work">網頁學習</td>
+            </tr>
+    
+            <tr>
+                <td class="courseTime">17:00 ~ 18:00</td>
+                <td class="free" colspan="5">晚餐時間</td>
+            </tr>
+    
+            <tr>
+                <td class="courseTime">18:00 ~ 22:00</td>
+                <td class="work">工作</td>
+                <td class="work">工作</td>
+                <td class="work">工作</td>
+                <td class="work">企劃</td>
+                <td class="work">錄影</td>
+            </tr>
+    
+            <tr>
+                <td class="courseTime">22:00 -</td>
+                <td class="free" colspan="5">睡前時間</td>
+            </tr>
+    
+    
+    
+        </table>
+
+
+    </div>
+
+    
+
+</body>
+</html>
